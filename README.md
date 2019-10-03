@@ -19,15 +19,15 @@ API Documentation
 Pagecounts: https://wikitech.wikimedia.org/wiki/Analytics/AQS/Legacy_Pagecounts
 Pageviews: https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews
 
-Values of fields in cleaned_data file en-wikipedia_traffic_200712-201809.csv:
-**Year**: the year for which the counts are applicable.
-**Month**: the month for which the counts are applicable.
-**pagecount_all_views**: the number of views of all services from the pagecount API, this includes both self-reported bot and human views.
-**pagecount_desktop_views**: the number of views of the desktop services from the pagecount API, this includes both self-reported bot and human views.
-**pagecount_mobile_views**: the number of views of the mobile services from the magecount API, this includes both self-reported bot and human views.
-**pageview_all_views**: the number of views of all services from the pageview API, this includes only human views and does not include self-reported bots.
-**pageview_desktop_views**: the number of views of desktop services from the pageview API, this includes only human views and does not include self-reported bots.
-**pageview_mobile_views**: the sum of the views from the mobile-app and mobile-web services from the pageview API, this includes only human views and does not include self-reported bots.
+Values of fields in cleaned_data file en-wikipedia_traffic_200712-201809.csv:  
+**Year**: the year for which the counts are applicable.  
+**Month**: the month for which the counts are applicable.  
+**pagecount_all_views**: the number of views of all services from the pagecount API, this includes both self-reported bot and human views.  
+**pagecount_desktop_views**: the number of views of the desktop services from the pagecount API, this includes both self-reported bot and human views.  
+**pagecount_mobile_views**: the number of views of the mobile services from the magecount API, this includes both self-reported bot and human views.  
+**pageview_all_views**: the number of views of all services from the pageview API, this includes only human views and does not include self-reported bots.  
+**pageview_desktop_views**: the number of views of desktop services from the pageview API, this includes only human views and does not include self-reported bots.  
+**pageview_mobile_views**: the sum of the views from the mobile-app and mobile-web services from the pageview API, this includes only human views and does not include self-reported bots.  
 
 Special Considerations:
 On occasion the APIs will malfunction and return 0 or null values for counts or views that should have values greater than zero.  If you see such values and the figure constructed by your notebook conflicts with the plot that is available through this repository, consider running the data gathering part of the jupyter notebook again to see if this resolves the issue.
