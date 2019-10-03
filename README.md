@@ -19,7 +19,7 @@ Data for this project are stored on two different systems within the Wikimedia F
 **Pagecounts**: https://wikitech.wikimedia.org/wiki/Analytics/AQS/Legacy_Pagecounts  
 **Pageviews**: https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews  
 
-Values of fields in cleaned_data file en-wikipedia_traffic_200712-201809.csv:  
+## Values of Fields:  
 **Year**: the year for which the counts are applicable.  
 **Month**: the month for which the counts are applicable.  
 **pagecount_all_views**: the number of views of all services from the pagecount API, this includes both self-reported bot and human views.  
